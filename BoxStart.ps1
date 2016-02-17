@@ -1,5 +1,5 @@
 $git = "C:\Program Files\Git\cmd\git.exe"
-$apm = "C:\Users\vorou\AppData\Local\atom\bin\apm.cmd"
+$apm = join-path $env:localappdata "atom\bin\apm.cmd"
 
 cinst -y git
 
